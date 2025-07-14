@@ -1,1 +1,52 @@
-<head><script defer src="main.js"></script></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1>Weather <i class="fa fa-cloud"></i></h1>
+    <form>
+        <span>Location</span>
+        <select name="Location" id="locate">
+            <option value="null" selected >---Select a option---</option> 
+            <option value="US">United States</option>
+            <option value="Ca">Canada</option>
+            <option value="Uk">United Kingdom</option>
+            <option value="au">Australia</option>
+            <option value="In">India</option>
+            <option value="de">Germany</option>
+            <option value="fr">France</option>
+            <option value="jp">Japan</option>
+            <option value="cn">China</option>
+            <option value="br">Brazil</option>
+            <option value="za">South Africa</option>
+            <option value="ng">Nigeria</option>
+            <option value="mx">Mexico</option>
+            <option value="ru">Russia</option>
+            <option value="it">Italy</option>
+            <option value="es">Spain</option>
+            <option value="kr">South Korea</option>
+            <option value="sa">Saudi Arabia</option>
+            <option value="ae">United Arab Emirates</option>
+            <option value="ar">Argentina</option>
+        </select>
+        <div>
+            <span>City</span>
+            <select name="city" id="city"></select>
+        </div>
+        <h2>OR</h2>
+        <span>Zipcode</span>
+        <input type="text"></form>
+        <div class="date">
+        <span>Date</span>
+        <input type="date" id="date_">
+        <div>
+        <button type="submit" id="btn">submit</button>  
+    </form>
+    <div id="row"></div>
+    <div id="show_data"></div>
+</body>
+</html>
